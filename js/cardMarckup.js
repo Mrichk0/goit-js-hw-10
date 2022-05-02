@@ -3,7 +3,7 @@ export function nameMarkup(countries) {
     .map(
       ({ name, flags }) =>
         `<li >
- <img src="${flags.svg}" width="25" alt="${name.official} national Flag">
+ <img src="${flags.svg}" width="25" alt="${name.official}  flag">
  <span>${name.official}</span>
  </li>`
     )
@@ -16,7 +16,7 @@ export function cardMarkup(countries) {
       ({ name, flags, capital, population, languages }) =>
         `<li>
      
- <img src="${flags.svg}" width="25"  alt="${name.official} national Flag">
+ <img src="${flags.svg}" width="25"  alt="${name.official} flag">
  <span>${name.official}</span>
  </li>
      <li>Capital:${capital}</li>
