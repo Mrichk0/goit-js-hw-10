@@ -3,7 +3,6 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "homepage": "https://Mrichk0.github.io/goit-js-hw-10",
   "scripts": {
     "dev": "parcel src/*.html",
