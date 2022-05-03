@@ -32,4 +32,3 @@ function onInputCountry(event) {
     countryList.innerHTML = "";
   }
 }
-console.log(countryList);
